@@ -1,5 +1,6 @@
 <html>
 <head>
+<<<<<<< HEAD
 	<script type="text/javascript" src="./javascript/login_validation.js">
 </script>
 </head>
@@ -7,12 +8,34 @@
 <body>
 	<form name="login" action="" method="post">
 
-	User_ID  : &nbsp;&nbsp;<input type = "text" name = "TxtUser"> <br>
-	Password : <input type="password" name="TxtPassword"><br>
+	User_ID  : &nbsp;&nbsp;<input type = "text" name = "txtUser"> <br>
+	Password : <input type="password" name="txtPassword"><br>
 
 	<input type= "submit" value = "Submit" onClick="checkLength();">
 	<input type= "button" value = "Cancel">
 
 	</form>
+=======
+<script language="javascript" type="text/javascript" src="./javascript/LoginValidation.js"></script>
+<link rel="stylesheet" type="text/css" href="./forktocat.jpg">
+</head>
+<body onload="SetFocus();" align="right">
+<form name="login" action="" method="post">
+<table align ="center">
+	<tr>
+		<td>User Name</td>
+		<td><input type = "text" name = "TxtUsername"></td>
+	</tr>
+	<tr>
+		<td>Password </td>
+		<td><input type="password" name="TxtPassword" id="TxtPassword"></td>
+	</tr>
+	<tr>
+		<td><input type= "button" value = "Submit" onClick="checkLength();"></td>
+		<td><input type= "button" value = "Cancel"></td>
+	</tr>
+</table>
+</form>
+>>>>>>> eb5d2ba1e028071d28b355bc2e3442f4bc9f74c1
 </body>
 </html>
