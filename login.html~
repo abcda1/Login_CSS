@@ -7,8 +7,8 @@
 <body>
 	<form name="login" action="" method="post">
 
-	User_ID  : &nbsp;&nbsp;<input type = "text" name = "txtUser"> <br>
-	Password : <input type="password" name="txtPassword"><br>
+	User_ID  : &nbsp;&nbsp;<input type = "text" name = "TxtUser"> <br>
+	Password : <input type="password" name="TxtPassword"><br>
 
 	<input type= "submit" value = "Submit" onClick="checkLength();">
 	<input type= "button" value = "Cancel">
