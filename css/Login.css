@@ -1,0 +1,13 @@
+body{
+	background-color:#00FFFF;
+	text-align:center;
+	color:#000000;
+}
+
+table{
+	border:5px solid;
+}
+
+td{
+	text-align:center;
+}
