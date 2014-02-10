@@ -1,24 +1,36 @@
 <html>
 <head>
-<script language="javascript" type="text/javascript" src="LoginValidation.js"></script>
+<script language="javascript" type="text/javascript" src="./javascript/LoginValidation.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/Login.css">
 </head>
-<body>
+<<<<<<< HEAD
+<body onload="SetFocus();">
 <form name="login" action="" method="post">
 <table>
 	<tr>
 		<td>User Name</td>
-		<td><input type = "text" name = "TxtUser"></td>
+		<td><input type = "text" name = "TxtUsername"></td>
 	</tr>
 	<tr>
 		<td>Password</td>
-		<td><input type="password" name="TxtPassword"></td>
+		<td><input type="password" name="TxtPassword" id="TxtPassword"></td>
 	</tr>
 	<tr>
-		<td><input type= "submit" value = "Submit" onClick="checkLength();"></td>
-		<td><input type= "submit" value = "Cancel"></td>
+		<td><input type= "button" value = "Submit" onClick="checkLength();"></td>
+		<td><input type= "button" value = "Cancel"></td>
 	</tr>
 </table>
 </form>
+=======
+<body>
+<center>
+<form name="login" action="" method="post">
+User_ID  : &nbsp;&nbsp;<input type = "text" name = "TxtUser"> <br>
+Password : <input type="password" name="TxtPassword"><br>
+<input type= "submit" value = "Submit">
+<input type= "submit" value = "Cancel">
+</form></center>
+
+>>>>>>> 287a060ef930848c5428120af2d09c5c9a69db15
 </body>
 </html>
