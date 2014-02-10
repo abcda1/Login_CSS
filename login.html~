@@ -1,23 +1,7 @@
 <html>
 <head>
-<<<<<<< HEAD
-	<script type="text/javascript" src="./javascript/login_validation.js">
-</script>
-</head>
-
-<body>
-	<form name="login" action="" method="post">
-
-	User_ID  : &nbsp;&nbsp;<input type = "text" name = "txtUser"> <br>
-	Password : <input type="password" name="txtPassword"><br>
-
-	<input type= "submit" value = "Submit" onClick="checkLength();">
-	<input type= "button" value = "Cancel">
-
-	</form>
-=======
 <script language="javascript" type="text/javascript" src="./javascript/LoginValidation.js"></script>
-<link rel="stylesheet" type="text/css" href="./forktocat.jpg">
+<link rel="stylesheet" type="text/css" href="./Home.css">
 </head>
 <body onload="SetFocus();" align="right">
 <form name="login" action="" method="post">
@@ -36,6 +20,5 @@
 	</tr>
 </table>
 </form>
->>>>>>> eb5d2ba1e028071d28b355bc2e3442f4bc9f74c1
 </body>
 </html>
