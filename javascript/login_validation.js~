@@ -1,8 +1,0 @@
-function checkLength(){
-	var passwordLength = document.getElementById('TxtPassword').length;
-	if(passwordLength<6){
-		alert("Password Length Must be atleast 6");
-	}
-
-}
-
