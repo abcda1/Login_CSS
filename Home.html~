@@ -3,7 +3,7 @@
 <head>
 <title>MyHome Page
 </title>
-<link rel="stylesheet" type="text/css" href="./css/Home.css">
+<link rel="stylesheet" type="text/css" href="../Home.css">
 </head>
 <body>
 <br>
